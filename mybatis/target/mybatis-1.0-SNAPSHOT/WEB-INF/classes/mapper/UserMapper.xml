@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper">
+    <insert id="insert" parameterType="com.mybatis.dao.User" keyColumn="id">
+        insert into user values (null,#{name},#{password},#{address});
+    </insert>
+    <delete id="delete" parameterType="list">
+        delete from user where id in
+        <foreach collection="list" item="i" open="(" separator="," close=")">
+            #{i}
+        </foreach>
+    </delete>
+    <update id="update" parameterType="com.mybatis.dao.User">
+        update user set name=#{name},password=#{password},address=#{address} where id=#{id};
+    </update>
+    <select id="select" parameterType="map" resultType="com.mybatis.dao.User">
+        select * from user
+        <where>
+            <if test="name!=null">
+                and name like #{name}
+            </if>
+            <if test="id!=null">
+                and id=#{id}
+            </if>
+        </where>
+    </select>
+
+</mapper>

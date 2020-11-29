@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="com.mybatis.dao.UserTest" time="0.471" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="F:\JAVAjdk\jre\bin"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\programme\idea\Maven\mybatis"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\programme\idea\Maven\mybatis"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="F:\JAVAjdk\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\小千\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="F:\jetbrains\IntelliJ IDEA 2020.1.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="archetypeCatalog" value="local"/>
+    <property name="classworlds.conf" value="F:\Apache\apache-maven-3.6.3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="F:\JAVAjdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;&quot;“F:\JAVAjdk\bin;F:\JAVAjdk\jre\bin;”&quot;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;H:\matlab\runtime\win64;H:\matlab\bin;F:\Lingo12\;C:\Program Files\LLVM\bin;F:\mysql\bin;D:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;D:\Program Files\Microsoft SQL Server\100\Tools\Binn\;D:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;D:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Android\platform-tools_r30.0.3-windows\platform-tools;F:\Apache\apache-tomcat-8.0.52\bin;F:\Apache\apache-tomcat-8.0.52\lib;F:\texlive\2019\texmf-dist\tex\latex;F:\Apache\apache-maven-3.6.3\bin;F:\Python\Scripts\;F:\Python\;C:\Users\小千\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\小千\AppData\Local\BypassRuntm;F:\Microsoft VS Code\bin;F:\tdmgcc\bin;D:\programme\vscode\java\JAVAjdk\bin;F:\mingw64\bin;F:\texlive\2019\bin\win32;F:\jetbrains\IntelliJ IDEA 2020.1.2\bin;;."/>
+    <property name="maven.conf" value="F:\Apache\apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\小千"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="小千"/>
+    <property name="java.class.path" value="F:\Apache\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;F:\Apache\apache-maven-3.6.3\boot\plexus-classworlds.license;F:\jetbrains\IntelliJ IDEA 2020.1.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="F:\JAVAjdk\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2020.1.2 -s F:\Apache\apache-maven-3.6.3\conf\settings.xml package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="idea.version2020.1.2" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="java.ext.dirs" value="F:\JAVAjdk\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="F:\JAVAjdk\jre\lib\resources.jar;F:\JAVAjdk\jre\lib\rt.jar;F:\JAVAjdk\jre\lib\sunrsasign.jar;F:\JAVAjdk\jre\lib\jsse.jar;F:\JAVAjdk\jre\lib\jce.jar;F:\JAVAjdk\jre\lib\charsets.jar;F:\JAVAjdk\jre\lib\jfr.jar;F:\JAVAjdk\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\Apache\apache-maven-3.6.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.mybatis.dao.UserTest" name="delete" time="0.312"/>
+  <testcase classname="com.mybatis.dao.UserTest" name="insert" time="0.069"/>
+  <testcase classname="com.mybatis.dao.UserTest" name="select" time="0.057"/>
+  <testcase classname="com.mybatis.dao.UserTest" name="update" time="0.033"/>
+</testsuite>
